@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hero Section</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <style>
+    /* Basic styles for testimonial section */
+
+  </style>
+</head>
+<body>
+  <div class="hero-section">
+    <nav>
+  <img src="images/logo.png" class="logo" />
+
+  <!-- Hamburger menu button, hidden on larger screens -->
+  <button class="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-menu">
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+  </button>
+
+  <ul id="nav-menu">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Package</a></li>
+    <li><a href="#">Destinations</a></li>
+    <li><a href="#">Guide</a></li>
+    <li><a href="#">About</a></li>
+  </ul>
+
+  <div class="btn-menu">
+    <a href="#" class="inst-btn">
+      <img src="images/instagram-svgrepo-com.png" class="logo" />
+    </a>
+    <a href="#" class="start-btn">Get Started</a>
+  </div>
+</nav>
+
+    <div class="content">
+      <div class="text">
+        <h1>Exploring, Experiencing</h1>
+        <p>
+          Set Sail on a Voyage of Wonder: Navigate Through Exclusive Tours and Enriching
+          Experiences Tailored for Every Traveler's Dream with Journeey
+        </p>
+      </div>
+
+      <div class="cont-btn">
+        <a href="#" class="start-btn">Book Now</a>
+        <a href="#" class="watch-btn" aria-label="Watch Video">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16" height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            style="vertical-align: middle; margin-right: 8px;"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <polygon points="5 3 19 12 5 21 5 3" />
+          </svg>
+          Watch Video
+        </a>
+      </div>
+
+      <section class="testimonial-section" aria-label="Client Testimonials">
+        <h2>Testimonials from Our Clients</h2>
+        <div class="testimonial-scroll-controls">
+  <button class="scroll-btn scroll-left" aria-label="Scroll testimonials left">
+    &#8249;
+  </button>
+  <button class="scroll-btn scroll-right" aria-label="Scroll testimonials right">
+    &#8250;
+  </button>
+</div>
+        <div class="testimonial-cards">
+          <article class="testimonial-card">
+            <p class="testimonial-text">
+              Our family trip organized by Journeey was nothing short of spectacular. Every detail was carefully planned.
+            </p>
+            <div class="testimonial-info">
+              <div class="user-details">
+                <img src="images/testimonial 2.jpg" alt="Oscar Family Photo" class="user-photo" />
+                <div class="user-name-location">
+                  <span class="user-name">Oscar Family</span>
+                  <span class="user-location">Delaware (DE)</span>
+                </div>
+              </div>
+              <button class="like-icon" aria-label="Like testimonial by Oscar Family">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42
+                    4.42 3 7.5 3c1.74 0 3.41 0.81 4.5 2.09C13.09 3.81 14.76 3
+                    16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <p class="testimonial-text">
+              The personalized itinerary to Japan was a perfect blend of culture, adventure, and relaxation.
+            </p>
+            <div class="testimonial-info">
+              <div class="user-details">
+                <img src="images/testimonial 1.png" alt="Angela Franz Photo" class="user-photo" />
+                <div class="user-name-location">
+                  <span class="user-name">Angela Franz</span>
+                  <span class="user-location">Colorado (CO)</span>
+                </div>
+              </div>
+              <button class="like-icon" aria-label="Like testimonial by Angela Franz">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42
+                    4.42 3 7.5 3c1.74 0 3.41 0.81 4.5 2.09C13.09 3.81 14.76 3
+                    16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                </svg>
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
